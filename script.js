@@ -7,7 +7,7 @@ const texto = document.querySelector( "#entrada-de-texto").ariaValueMax;
 const campoResultado = document. querySelector( "#resultado-palavrachave")
 const palavrasChave = processaTexto( texto);
 
-    campoResultado.textoContent = palavras; 
+    campoResultado.textoContent = palavras.join(","); 
     
 } 
  function ProcessaTexto (texto) {
