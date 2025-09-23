@@ -12,6 +12,14 @@ const palavrasChave = processaTexto( texto);
 } 
  function ProcessaTexto (texto) {
     let palavras = texto.split(/\P{L]+/u);
-    return palavras; 
+
+    let frequencias = { };
+    for (let i of palavras) { 
+        frequencias [i] =0;
+        for ( let j of palavras) 
+            
+        }
+        
+        return palavras; 
 
  } 
